@@ -65,3 +65,21 @@ Before running the script in a live environment, you might want to test it with 
 - The matchmaking function accurately compares and calculates match percentages.
 - The IP validation correctly identifies and excludes known WAF IPs.
 - The final output is as expected, listing potential bypass methods.
+
+
+
+
+## Additional Suggestions:
+
+### API Keys:
+- Make sure you replace `YOUR_API_KEY` with your actual API key for VirusTotal.
+
+### Permissions:
+- Ensure the script has execution permissions: `chmod +x script.sh`.
+
+### Testing:
+- Test with a smaller set of known subdomains to ensure functionality.
+
+### Logging:
+- Add logging at each major step to track progress and catch issues quickly.
+
